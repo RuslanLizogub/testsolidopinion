@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8646" started-at="2015-10-27T10:44:17Z" finished-at="2015-10-27T10:44:25Z">
+  <suite name="Default suite" duration-ms="11694" started-at="2015-10-27T12:11:52Z" finished-at="2015-10-27T12:12:03Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8646" started-at="2015-10-27T10:44:17Z" finished-at="2015-10-27T10:44:25Z">
-      <class name="solidOptionGroupId.solidOptionArtifactId.SmokeTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:solidOptionGroupId.solidOptionArtifactId.SmokeTest@64616ca2]" name="setUp" is-config="true" duration-ms="7482" started-at="2015-10-27T12:44:17Z" finished-at="2015-10-27T12:44:24Z">
+    <test name="Default test" duration-ms="11694" started-at="2015-10-27T12:11:52Z" finished-at="2015-10-27T12:12:03Z">
+      <class name="solidOptionGroupId.solidOptionArtifactId.SimpleTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:solidOptionGroupId.solidOptionArtifactId.SimpleTest@64616ca2]" name="setUp" is-config="true" duration-ms="5868" started-at="2015-10-27T14:11:52Z" finished-at="2015-10-27T14:11:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="SimpleRegistration()[pri:0, instance:solidOptionGroupId.solidOptionArtifactId.SmokeTest@64616ca2]" name="SimpleRegistration" duration-ms="1052" started-at="2015-10-27T12:44:24Z" finished-at="2015-10-27T12:44:25Z">
+        <test-method status="PASS" signature="SimpleRegistration()[pri:0, instance:solidOptionGroupId.solidOptionArtifactId.SimpleTest@64616ca2]" name="SimpleRegistration" duration-ms="5759" started-at="2015-10-27T14:11:58Z" finished-at="2015-10-27T14:12:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SimpleRegistration -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:solidOptionGroupId.solidOptionArtifactId.SmokeTest@64616ca2]" name="tearDown" is-config="true" duration-ms="13" started-at="2015-10-27T12:44:25Z" finished-at="2015-10-27T12:44:25Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:solidOptionGroupId.solidOptionArtifactId.SimpleTest@64616ca2]" name="tearDown" is-config="true" duration-ms="6" started-at="2015-10-27T14:12:03Z" finished-at="2015-10-27T14:12:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- solidOptionGroupId.solidOptionArtifactId.SmokeTest -->
+      </class> <!-- solidOptionGroupId.solidOptionArtifactId.SimpleTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

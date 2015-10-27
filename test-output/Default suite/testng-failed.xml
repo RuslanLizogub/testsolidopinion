@@ -3,15 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="solidOptionGroupId.solidOptionArtifactId.SmokeTest">
+      <class name="solidOptionGroupId.solidOptionArtifactId.SimpleTest">
         <methods>
-          <include name="runAplication"/>
+          <include name="setUp"/>
           <include name="SimpleRegistration"/>
-          <include name="login"/>
           <include name="tearDown"/>
-          <include name="logout"/>
         </methods>
-      </class> <!-- solidOptionGroupId.solidOptionArtifactId.SmokeTest -->
+      </class> <!-- solidOptionGroupId.solidOptionArtifactId.SimpleTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
