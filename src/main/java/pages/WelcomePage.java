@@ -4,6 +4,8 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import settings.FirefoxSettings;
+
 public class WelcomePage {
 	private WebDriver driver;
 
@@ -13,8 +15,9 @@ public class WelcomePage {
 
 	By userNameLocator = By.id("user_name");
 	
-	public void assertUserName(){
-		Assert.assertEquals("Wrong user name!", driver.findElement(userNameLocator).getText(), "testName");
+	public void assertUserName(String userName){
+		FirefoxSettings test = new FirefoxSettings();
+		Assert.assertEquals("Wrong user name!", driver.findElement(userNameLocator).getText(), userName);
 		System.out.println("User name OK!");
 	}
 }

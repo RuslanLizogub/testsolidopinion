@@ -19,7 +19,7 @@ public class SimpleTest extends FirefoxSettings {
 		
 		Thread.sleep(5000);
 		WelcomePage welcomePage = new WelcomePage(driver);
-		welcomePage.assertUserName();
+		welcomePage.assertUserName(userName);
 	}
 
 }

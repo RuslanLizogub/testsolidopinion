@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11694" started-at="2015-10-27T12:11:52Z" finished-at="2015-10-27T12:12:03Z">
+  <suite name="Default suite" duration-ms="13547" started-at="2015-10-30T09:14:12Z" finished-at="2015-10-30T09:14:25Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11694" started-at="2015-10-27T12:11:52Z" finished-at="2015-10-27T12:12:03Z">
+    <test name="Default test" duration-ms="13547" started-at="2015-10-30T09:14:12Z" finished-at="2015-10-30T09:14:25Z">
       <class name="solidOptionGroupId.solidOptionArtifactId.SimpleTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:solidOptionGroupId.solidOptionArtifactId.SimpleTest@64616ca2]" name="setUp" is-config="true" duration-ms="5868" started-at="2015-10-27T14:11:52Z" finished-at="2015-10-27T14:11:58Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:solidOptionGroupId.solidOptionArtifactId.SimpleTest@64616ca2]" name="setUp" is-config="true" duration-ms="7619" started-at="2015-10-30T11:14:12Z" finished-at="2015-10-30T11:14:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="SimpleRegistration()[pri:0, instance:solidOptionGroupId.solidOptionArtifactId.SimpleTest@64616ca2]" name="SimpleRegistration" duration-ms="5759" started-at="2015-10-27T14:11:58Z" finished-at="2015-10-27T14:12:03Z">
+        <test-method status="PASS" signature="SimpleRegistration()[pri:0, instance:solidOptionGroupId.solidOptionArtifactId.SimpleTest@64616ca2]" name="SimpleRegistration" duration-ms="5847" started-at="2015-10-30T11:14:19Z" finished-at="2015-10-30T11:14:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SimpleRegistration -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:solidOptionGroupId.solidOptionArtifactId.SimpleTest@64616ca2]" name="tearDown" is-config="true" duration-ms="6" started-at="2015-10-27T14:12:03Z" finished-at="2015-10-27T14:12:03Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:solidOptionGroupId.solidOptionArtifactId.SimpleTest@64616ca2]" name="tearDown" is-config="true" duration-ms="6" started-at="2015-10-30T11:14:25Z" finished-at="2015-10-30T11:14:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

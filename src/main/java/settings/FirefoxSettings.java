@@ -9,8 +9,11 @@ import org.testng.annotations.BeforeClass;
 
 public class FirefoxSettings {
 	protected WebDriver driver;
-	protected String userName = "testName";
-	protected String userEmail = Math.random()*999 + "@gmail.com";
+	
+	protected int randomInt = (int) (Math.random()*9999999);
+	public String userName = randomInt + "testName";
+	protected String userEmail = randomInt + "@gmail.com";
+	
 	protected String userPassword = "testPassword";
 	protected String userPassword2 = "testPassword";
 	
